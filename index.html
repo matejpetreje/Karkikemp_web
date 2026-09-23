@@ -3,31 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Velekára</title>
+  <title>Velekára 2026</title>
   <style>
     html, body {
       margin: 0;
       width: 100%;
       height: 100%;
-      overflow: hidden;
       background: #000;
+      overflow: hidden;
     }
     .photo {
       position: fixed;
       inset: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      /* Osoba je v originálu přibližně na 57 % šířky a 70 % výšky. */
-      object-position: 57% 70%;
+      object-fit: contain;
+      object-position: center center;
       display: block;
-    }
-    @media (orientation: landscape) {
-      .photo { object-position: 57% 72%; }
     }
   </style>
 </head>
 <body>
-  <img class="photo" src="velekara.jpg" alt="Velekára">
+  <img class="photo" src="velekara.jpg" alt="Velekára 2026">
 </body>
 </html>
